@@ -2,7 +2,6 @@ from typing import NewType
 
 import psycopg2
 
-
 PostgresCursor = NewType("PostgresCursor", psycopg2.extensions.cursor)
 PostgresConn = NewType("PostgresConn", psycopg2.extensions.connection)
 
@@ -11,18 +10,18 @@ table_drop_actors = "DROP TABLE IF EXISTS actors"
 
 table_create_actors = """
     CREATE TABLE IF NOT EXISTS actors (
-        id int,
-        login text,
-        PRIMARY KEY(id)
+        id serial PRIMARY KEY,
+        login text
     )
 """
+
 table_create_events = """
     CREATE TABLE IF NOT EXISTS events (
-        id text,
+        id serial PRIMARY KEY,
         type text,
-        actor_id int,
-        PRIMARY KEY(id),
-        CONSTRAINT fk_actor FOREIGN KEY(actor_id) REFERENCES actors(id)
+        actor_id int REFERENCES actors(id),
+        labels text,  -- Added 'labels' column
+        milestone text  -- Added 'milestone' column
     )
 """
 
@@ -30,11 +29,11 @@ create_table_queries = [
     table_create_actors,
     table_create_events,
 ]
+
 drop_table_queries = [
     table_drop_events,
     table_drop_actors,
 ]
-
 
 def drop_tables(cur: PostgresCursor, conn: PostgresConn) -> None:
     """
@@ -44,7 +43,6 @@ def drop_tables(cur: PostgresCursor, conn: PostgresConn) -> None:
         cur.execute(query)
         conn.commit()
 
-
 def create_tables(cur: PostgresCursor, conn: PostgresConn) -> None:
     """
     Creates each table using the queries in `create_table_queries` list.
@@ -52,7 +50,6 @@ def create_tables(cur: PostgresCursor, conn: PostgresConn) -> None:
     for query in create_table_queries:
         cur.execute(query)
         conn.commit()
-
 
 def main():
     """
@@ -72,7 +69,6 @@ def main():
     create_tables(cur, conn)
 
     conn.close()
-
 
 if __name__ == "__main__":
     main()
