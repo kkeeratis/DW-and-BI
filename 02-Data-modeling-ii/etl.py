@@ -98,7 +98,7 @@ def main():
     print("{:<15} {:<20} {:<10}".format("ID", "Type", "Public"))
     print("-" * 45)
 
-    query_select_all = "SELECT * from events"
+    query_select_all = "SELECT actors from events"
     try:
         rows = session.execute(query_select_all)
     except Exception as e:

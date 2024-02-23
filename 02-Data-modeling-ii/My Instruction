@@ -1,0 +1,16 @@
+1.เข้าถึงโฟลเดอร์ "02-Data-modeling-ii" โดยใช้คำสั่ง cd: 
+เปิด Command Prompt (สำหรับ Windows) หรือ Terminal (สำหรับ macOS/Linux)
+ > cd 02-Data-modeling-ii
+พิมพ์คำสั่งต่อไปนี้แล้วกด Enter:
+นี่คือคำสั่งที่จะเข้าถึงโฟลเดอร์ "02-Data-modeling-ii" ใน Command Prompt หรือ Terminal
+
+2.ติดตั้งไลบรารี cassandra-driver ด้วย pip:
+หลังจากเข้าถึงโฟลเดอร์ "02-Data-modeling-ii" แล้ว พิมพ์คำสั่งต่อไปนี้แล้วกด Enter:
+ > pip install cassandra-driver
+ นี่คือคำสั่งที่ใช้ในการติดตั้งไลบรารี cassandra-driver ที่จำเป็นสำหรับโค้ดที่ให้มาในโฟลเดอร์ "02-Data-modeling-ii"
+
+3.รันโค้ด Python etl.py: 
+อยู่ในโฟลเดอร์ "02-Data-modeling-ii" ให้พิมพ์คำสั่งต่อไปนี้แล้วกด Enter:
+ > python etl.py
+ เมื่อรันโค้ดเสร็จสิ้น โปรแกรมจะทำงานตามคำสั่งที่ระบุในไฟล์ etl.py และแสดงผลลัพธ์บางอย่างบน Command Prompt หรือ Terminal 
+

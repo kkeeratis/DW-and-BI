@@ -1,0 +1,3 @@
+Create table reactions โดยมี Attribute :  ID , Event , Reactions ,User ID  เพื่อตรวจสอบปฏิกิริยาที่ลูกค้ามีต่อสินค้า
+และสร้าง Table  Comments  โดยมี Attribute :  ID , Event ,User ID ,Comments, เพื่อตรวจสอบข้อความที่เขียนถึงผลิตภัณฑ์ว่าเป็นไปในทิศทางใด  
+เพื่อที่จะได้หา  insight ว่าจะพัฒนา หรือปรับปรุงอย่างไร

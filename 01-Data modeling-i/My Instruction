@@ -1,0 +1,6 @@
+เปิด Terminal ใหม่
+พิมพ์ cd 01-Data modeling-1 เพื่อ เข้าไปที่ path : 01-Data-modeling-i
+พิมพ์ python create_tables.python
+พิมพ์ python etl.py
+สร้าง Server postgres เพื่อนำเข้าข้อมูล โดยการพิมพ์ docker compose up
+เมื่อเสร็จสิ้นแล้วให้ปิด server โดยการพิมพ์ docker compose down.
