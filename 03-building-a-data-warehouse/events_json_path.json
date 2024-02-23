@@ -1,9 +1,0 @@
-{
-  "jsonpaths": [
-    "$.id",
-    "$.type",
-    "$.actor.login",
-    "$.repo.name",
-    "$.created_at"
-  ]
-}
