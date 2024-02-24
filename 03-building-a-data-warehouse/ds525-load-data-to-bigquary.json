@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "building-a-data-warehouse",
+  "private_key_id": "f956b9b8c04d8333cc6d126280972c88138c6ca9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCYKNepVrvG/Vcx\n89AHh7ZaHNUPFBETHVXrgMlEkgmI2hw6pFlKEeSQYS0X3e69L+mJDb6Mp+MT6P1o\nSKg2F0GxzQm6goD1HSMcG0AI8RxGy963lbtmObb6uR5UGeOU2pyken5BpsK5Q5Pf\nIzCc9gj7rYGM0/fLOQf8H9QnzIxMv/R2oqaaGO902b7uxKkdQhygvjD4f74HXWbX\nv+amgOFymGn991bfuydgXeoIyDQdolwSp2sFXruIMiWRsvf4jhjtJhgmphDIBrL6\nMiVTjmfAzKjEL3v42H9nWRxO/suB1NncDDFM84taLvH2hKPIoD/wHRhdzTAT+XYT\nu9nNsJuzAgMBAAECggEABcW4qL20Q7rzVMKvi27rd5pbE7hADZNcqNqAHYHT46i/\nB6GZ01ZqbyGHvGgOEhZjq+IIteDd8Omk82YOO5RrnglfeY2mUW1Kb7BOSuwashFP\nNh7XKLNpl2zwL9QkfTIKXXaS1WHfDbEVRpKuS6miq9Q9rCWTxyuo7XFuyFAuqX42\n3vzLpUxLfGLsJKEoytGvUs5+TjFj9/4VY5Oo4XAd9+r5/+b//M9RnFpb2+Z/u6RZ\n7467ATuef+pai69j8IKVp9GYjJF0Pj7SceDzg5I+5bgayPHkUpERej7vs0LvyCgJ\nkf6uu0kqwDP0U/QllDTi2dau9Z2wI0Y/nEygS59UwQKBgQDH+vBd5AL7urbT8gy7\nibRy1LWb5tvYSR2rGiPcsObjezPbn4MUwDukX6rS1nn+YyetiMX5EjjRai6k/6Rn\n0XJQ5pnjGle1cUmwGWqOtpy4xA63yxtDdA3i1AZ9K9Vh+MwLhYOO8weEZpW2a+tT\nksCwiRKM9kf+CduVOSxLCGnhBwKBgQDCyJE/EYboH+UVOiLScOJhHrlMGObyahuT\nTEh5R7CRmGHjMTqELdkBHU4F/FYqKJ9zSNQAXnes41lIqqlIIa1n8yEsuaJi3/y7\n9tqeqMxz3VwMI8xJofuHLuAavyBP9JjIXNKyKm4bCbLCdgxLx+EHtVJPj5aK0BJq\nP1pdgPHA9QKBgH01X5PZtAh6cggnr9Mnt+SBy6duFs3HkZzUhAmkdRuOwvxKVh8C\n8RTMlT7m7IDbAjfDv/hfcVWkvsmuCfi6iXGfwFAR6UKASNvKPg5Wxa9libWHpG1K\nV3tityFd9X8e8FpyYNl6zoUWWbxau3+bDaw6VnQNqyuibmpy3omoHeq3AoGAGuLA\nWao7qtKsNi/eGpoGRU2OWhid2BwZTk2bO1JP5ujXqhpjb1c8utCmsmDQK+WLjMgi\nqyJe9ngzHLqhvxkW7GA81gWRioBMTE2Yg4ndHqkRSYOvcQJwy4oG2OpEtYSXiiB1\n3K3KoOTHzdupetROFVhL0juJlgN+ZzfzazCfLfkCgYAjuECQaGzAR81rYyw9TYDX\nEn0fJq123vAfZ+KJrVhK+xOR5gtCBMtIiRBcZFKgoJ7xXuu2zMp1PDBCEV+cmYAZ\n0ajZQCIAUhLr4L4RSV5LvJvLSPIXVrovWqoAHmdnA5Nw0+BZQfu1k2JMPkbgXH1V\nod3DSbaiFMGrRakdfrEHhw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ds525-load-data-to-bigquary@building-a-data-warehouse.iam.gserviceaccount.com",
+  "client_id": "108786619756135924531",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ds525-load-data-to-bigquary%40building-a-data-warehouse.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
