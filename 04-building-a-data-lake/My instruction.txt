@@ -1,0 +1,6 @@
+1.ในส่วน volumes, ./notebooks:/home/jovyan/work คือการโยงโฟลเดอร์ notebooks ในโฮสต์เข้ากับโฟลเดอร์ work ภายใน Jupyter container เพื่อเก็บ Notebooks และข้อมูลอื่น ๆ ที่คุณจะใช้ในการทำงาน.
+2.คำสั่ง docker-compose up จะเป็นการเริ่มต้น Container ของ Jupyter โดยจะเปิดพอร์ต 8888 สำหรับการเชื่อมต่อ.
+3.เมื่อ Jupyter Notebook เริ่มทำงาน จะได้รับ Token ที่ต้องใช้ในการเข้าถึงโดยเข้าไปที่ Terminal ของ Container นั้น ๆ ด้วยคำสั่ง: docker exec -it <container_id> /bin/bash
+โดย <container_id> คือ ID ของ container ที่คุณสร้างขึ้น (คุณสามารถดูได้โดยใช้ docker ps). เมื่อคุณเข้าถึง Terminal ของ Container นี้ คุณจะพบ Token ใน Log ของ Jupyter Notebook.
+4.คัดลอก Token และเปิดเว็บเบราว์เซอร์ จากนั้นไปที่ http://localhost:8888 และป้อน Token เพื่อเข้าสู่ Jupyter Notebook.
+5.เมื่อเข้าสู่ Jupyter Notebook สามารถเริ่มต้นการทำงานกับ Data Lake ได้โดยการสร้าง Notebooks หรือโค้ดขึ้นมาเพื่อประมวลผลข้อมูลตามที่ต้องการ.
