@@ -1,0 +1,6 @@
+1. ไปที่ Terminal พิมพ์ 05-creating-and-scheduling-data-pipelines
+2. docker compose up
+3. เข้าไปที่ Airflow
+4. เมื่อคำสั่ง docker compose up ทำงานเสร็จสิ้นแล้ว คุณจะได้รับ URL หรือที่อยู่ IP ที่สามารถเข้าถึง Airflow UI ได้ เช่น http://localhost:8080 หรือ http://your_ip_address:8080 ขึ้นอยู่กับการตั้งค่า Docker หรือเครื่องที่ใช้งาน
+5. เข้าสู่ Airflow UI โดยใช้ URL หรือที่อยู่ IP ที่ได้รับ จะเจอหน้าล็อกอิน ให้ใส่ username และ password ที่ตั้งไว้ ซึ่งในกรณีที่ใช้ Docker Compose ค่าเริ่มต้นสำหรับ username คือ admin และ password คือ admin
+6.เมื่อเข้าสู่ระบบสามารถเริ่มต้นการดำเนินการเพื่อสร้างและตั้งตารางการทำงานตามคำแนะนำในเรื่อง "05-creating-and-scheduling-data-pipelines" ใน Airflow UI โดยใช้โค้ดและการกำหนด DAG ที่ท่านต้องการ
