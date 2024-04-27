@@ -41,6 +41,3 @@ This section focuses on the role of analytics engineering in leveraging data for
 
 Contributions to this repository are welcome. If you have suggestions, improvements, or additional resources related to educational data warehouse and BI processes at Mahidol University, please feel free to submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
